@@ -1,0 +1,178 @@
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIipYSxP.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIGpYSxP.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIupYSxP.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIWpYQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* latin-ext */
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXoo9Wdhyzbi.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    margin: 0 10%;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+q {
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Caveat, serif;
+}
+
+li {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+.header {
+    display: block;
+    width: 80%;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 0 0;
+}
+
+.section {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-section {
+    width: 100%;
+}
+
+.panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    padding-top: 10px;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.green {
+    background-color: #014421;
+    color: white;
+}
+
+.red {
+    background-color: #880808;
+    color: white;
+}
+
+.grey {
+    background-color: #595953;
+    color: white;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 45%;
+}
+
+.font-label {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.regular {
+    font-size: 30px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.caveat {
+    font-family: 'Caveat', sans-serif;
+}
+
+.bebasneue {
+    font-family: 'Bebas Neue', sans-serif;
+}
